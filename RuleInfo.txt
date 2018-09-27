@@ -1,6 +1,7 @@
 9/24(月)
-共有方法 GitHub
-連絡方法 LINE,Skype
+共有方法:GitHub
+連絡方法:LINE,Skype
+Repository name(Team name):BoostJunKtion　
 作るアプリ　お金　管理アプリ（12/31まで）
 目標　・年内にアプリケーション開発。
 　　　・達成する力を身につける。
