@@ -47,4 +47,7 @@ Schedule.txt にまとめた
 
 シンプルかつスマートに
 
+Xamarine(言語　C#)を使って、シュミレータはXCodeを利用する。
+
+
 
