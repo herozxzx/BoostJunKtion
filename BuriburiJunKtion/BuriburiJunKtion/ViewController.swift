@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var kabel4: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.init(red: 198/255, green: 144/255, blue: 99/255, alpha: 90/100)
