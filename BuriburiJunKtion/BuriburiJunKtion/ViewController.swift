@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         label.text = "Hello BJK"
     }
-
+    override func didReceiveMemoryWarning(){
+        super.didReceiveMemoryWarning()
+    }
 
 }
 
