@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8510732521772B720081B3B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510732421772B720081B3B5 /* AppDelegate.swift */; };
+		8510732721772B720081B3B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510732621772B720081B3B5 /* ViewController.swift */; };
+		8510732A21772B720081B3B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8510732821772B720081B3B5 /* Main.storyboard */; };
+		8510732C21772B790081B3B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8510732B21772B790081B3B5 /* Assets.xcassets */; };
+		8510732F21772B790081B3B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8510732D21772B790081B3B5 /* LaunchScreen.storyboard */; };
+		8510733A21772B7A0081B3B5 /* PassRockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510733921772B7A0081B3B5 /* PassRockTests.swift */; };
+		8510734521772B7A0081B3B5 /* PassRockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510734421772B7A0081B3B5 /* PassRockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8510733621772B7A0081B3B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8510731921772B720081B3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8510732021772B720081B3B5;
+			remoteInfo = PassRock;
+		};
+		8510734121772B7A0081B3B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8510731921772B720081B3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8510732021772B720081B3B5;
+			remoteInfo = PassRock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8510732121772B720081B3B5 /* PassRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8510732421772B720081B3B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8510732621772B720081B3B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8510732921772B720081B3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8510732B21772B790081B3B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8510732E21772B790081B3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8510733021772B790081B3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8510733521772B7A0081B3B5 /* PassRockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassRockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8510733921772B7A0081B3B5 /* PassRockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassRockTests.swift; sourceTree = "<group>"; };
+		8510733B21772B7A0081B3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8510734021772B7A0081B3B5 /* PassRockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassRockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8510734421772B7A0081B3B5 /* PassRockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassRockUITests.swift; sourceTree = "<group>"; };
+		8510734621772B7A0081B3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8510731E21772B720081B3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8510733221772B7A0081B3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8510733D21772B7A0081B3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8510731821772B720081B3B5 = {
+			isa = PBXGroup;
+			children = (
+				8510732321772B720081B3B5 /* PassRock */,
+				8510733821772B7A0081B3B5 /* PassRockTests */,
+				8510734321772B7A0081B3B5 /* PassRockUITests */,
+				8510732221772B720081B3B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8510732221772B720081B3B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8510732121772B720081B3B5 /* PassRock.app */,
+				8510733521772B7A0081B3B5 /* PassRockTests.xctest */,
+				8510734021772B7A0081B3B5 /* PassRockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8510732321772B720081B3B5 /* PassRock */ = {
+			isa = PBXGroup;
+			children = (
+				8510732421772B720081B3B5 /* AppDelegate.swift */,
+				8510732621772B720081B3B5 /* ViewController.swift */,
+				8510732821772B720081B3B5 /* Main.storyboard */,
+				8510732B21772B790081B3B5 /* Assets.xcassets */,
+				8510732D21772B790081B3B5 /* LaunchScreen.storyboard */,
+				8510733021772B790081B3B5 /* Info.plist */,
+			);
+			path = PassRock;
+			sourceTree = "<group>";
+		};
+		8510733821772B7A0081B3B5 /* PassRockTests */ = {
+			isa = PBXGroup;
+			children = (
+				8510733921772B7A0081B3B5 /* PassRockTests.swift */,
+				8510733B21772B7A0081B3B5 /* Info.plist */,
+			);
+			path = PassRockTests;
+			sourceTree = "<group>";
+		};
+		8510734321772B7A0081B3B5 /* PassRockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8510734421772B7A0081B3B5 /* PassRockUITests.swift */,
+				8510734621772B7A0081B3B5 /* Info.plist */,
+			);
+			path = PassRockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8510732021772B720081B3B5 /* PassRock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8510734921772B7A0081B3B5 /* Build configuration list for PBXNativeTarget "PassRock" */;
+			buildPhases = (
+				8510731D21772B720081B3B5 /* Sources */,
+				8510731E21772B720081B3B5 /* Frameworks */,
+				8510731F21772B720081B3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassRock;
+			productName = PassRock;
+			productReference = 8510732121772B720081B3B5 /* PassRock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8510733421772B7A0081B3B5 /* PassRockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8510734C21772B7A0081B3B5 /* Build configuration list for PBXNativeTarget "PassRockTests" */;
+			buildPhases = (
+				8510733121772B7A0081B3B5 /* Sources */,
+				8510733221772B7A0081B3B5 /* Frameworks */,
+				8510733321772B7A0081B3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8510733721772B7A0081B3B5 /* PBXTargetDependency */,
+			);
+			name = PassRockTests;
+			productName = PassRockTests;
+			productReference = 8510733521772B7A0081B3B5 /* PassRockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8510733F21772B7A0081B3B5 /* PassRockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8510734F21772B7A0081B3B5 /* Build configuration list for PBXNativeTarget "PassRockUITests" */;
+			buildPhases = (
+				8510733C21772B7A0081B3B5 /* Sources */,
+				8510733D21772B7A0081B3B5 /* Frameworks */,
+				8510733E21772B7A0081B3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8510734221772B7A0081B3B5 /* PBXTargetDependency */,
+			);
+			name = PassRockUITests;
+			productName = PassRockUITests;
+			productReference = 8510734021772B7A0081B3B5 /* PassRockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8510731921772B720081B3B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = boostjunktion;
+				TargetAttributes = {
+					8510732021772B720081B3B5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8510733421772B7A0081B3B5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8510732021772B720081B3B5;
+					};
+					8510733F21772B7A0081B3B5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8510732021772B720081B3B5;
+					};
+				};
+			};
+			buildConfigurationList = 8510731C21772B720081B3B5 /* Build configuration list for PBXProject "PassRock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8510731821772B720081B3B5;
+			productRefGroup = 8510732221772B720081B3B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8510732021772B720081B3B5 /* PassRock */,
+				8510733421772B7A0081B3B5 /* PassRockTests */,
+				8510733F21772B7A0081B3B5 /* PassRockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8510731F21772B720081B3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8510732F21772B790081B3B5 /* LaunchScreen.storyboard in Resources */,
+				8510732C21772B790081B3B5 /* Assets.xcassets in Resources */,
+				8510732A21772B720081B3B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8510733321772B7A0081B3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8510733E21772B7A0081B3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8510731D21772B720081B3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8510732721772B720081B3B5 /* ViewController.swift in Sources */,
+				8510732521772B720081B3B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8510733121772B7A0081B3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8510733A21772B7A0081B3B5 /* PassRockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8510733C21772B7A0081B3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8510734521772B7A0081B3B5 /* PassRockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8510733721772B7A0081B3B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8510732021772B720081B3B5 /* PassRock */;
+			targetProxy = 8510733621772B7A0081B3B5 /* PBXContainerItemProxy */;
+		};
+		8510734221772B7A0081B3B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8510732021772B720081B3B5 /* PassRock */;
+			targetProxy = 8510734121772B7A0081B3B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8510732821772B720081B3B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8510732921772B720081B3B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8510732D21772B790081B3B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8510732E21772B790081B3B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8510734721772B7A0081B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8510734821772B7A0081B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8510734A21772B7A0081B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X46ZQBZPV;
+				INFOPLIST_FILE = PassRock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boostjunktion.PassRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8510734B21772B7A0081B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X46ZQBZPV;
+				INFOPLIST_FILE = PassRock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boostjunktion.PassRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8510734D21772B7A0081B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X46ZQBZPV;
+				INFOPLIST_FILE = PassRockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boostjunktion.PassRockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassRock.app/PassRock";
+			};
+			name = Debug;
+		};
+		8510734E21772B7A0081B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X46ZQBZPV;
+				INFOPLIST_FILE = PassRockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boostjunktion.PassRockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassRock.app/PassRock";
+			};
+			name = Release;
+		};
+		8510735021772B7A0081B3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X46ZQBZPV;
+				INFOPLIST_FILE = PassRockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boostjunktion.PassRockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassRock;
+			};
+			name = Debug;
+		};
+		8510735121772B7A0081B3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X46ZQBZPV;
+				INFOPLIST_FILE = PassRockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = boostjunktion.PassRockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassRock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8510731C21772B720081B3B5 /* Build configuration list for PBXProject "PassRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8510734721772B7A0081B3B5 /* Debug */,
+				8510734821772B7A0081B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8510734921772B7A0081B3B5 /* Build configuration list for PBXNativeTarget "PassRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8510734A21772B7A0081B3B5 /* Debug */,
+				8510734B21772B7A0081B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8510734C21772B7A0081B3B5 /* Build configuration list for PBXNativeTarget "PassRockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8510734D21772B7A0081B3B5 /* Debug */,
+				8510734E21772B7A0081B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8510734F21772B7A0081B3B5 /* Build configuration list for PBXNativeTarget "PassRockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8510735021772B7A0081B3B5 /* Debug */,
+				8510735121772B7A0081B3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8510731921772B720081B3B5 /* Project object */;
+}
