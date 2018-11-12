@@ -7,24 +7,25 @@
     objects = {
 
 /* Begin PBXBuildFile section */
-        8510731721772A290081B3B5 /* ViewControlle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510731621772A290081B3B5 /* ViewControlle.swift */; };
-        CDA2D6DB2174C8460067A6B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2D6DA2174C8460067A6B9 /* AppDelegate.swift */; };
-        CDA2D6DD2174C8460067A6B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2D6DC2174C8460067A6B9 /* ViewController.swift */; };
-        CDA2D6E02174C8460067A6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA2D6DE2174C8460067A6B9 /* Main.storyboard */; };
-        CDA2D6E22174C8480067A6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA2D6E12174C8480067A6B9 /* Assets.xcassets */; };
-        CDA2D6E52174C8480067A6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA2D6E32174C8480067A6B9 /* LaunchScreen.storyboard */; };
-        CDA2D6F92177261B0067A6B9 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2D6F82177261B0067A6B9 /* EditViewController.swift */; };
+		CDA2D6DB2174C8460067A6B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2D6DA2174C8460067A6B9 /* AppDelegate.swift */; };
+		CDA2D6DD2174C8460067A6B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2D6DC2174C8460067A6B9 /* ViewController.swift */; };
+		CDA2D6E02174C8460067A6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA2D6DE2174C8460067A6B9 /* Main.storyboard */; };
+		CDA2D6E22174C8480067A6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA2D6E12174C8480067A6B9 /* Assets.xcassets */; };
+		CDA2D6E52174C8480067A6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA2D6E32174C8480067A6B9 /* LaunchScreen.storyboard */; };
+		CDA2D6F92177261B0067A6B9 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2D6F82177261B0067A6B9 /* EditViewController.swift */; };
+		CDF00087217DE90700BD6DAD /* EditViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF00086217DE90700BD6DAD /* EditViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-        CDA2D6D72174C8460067A6B9 /* BuriburiJunKtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuriburiJunKtion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-        CDA2D6DA2174C8460067A6B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        CDA2D6DC2174C8460067A6B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-        CDA2D6DF2174C8460067A6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-        CDA2D6E12174C8480067A6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        CDA2D6E42174C8480067A6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-        CDA2D6E62174C8480067A6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        CDA2D6F82177261B0067A6B9 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		CDA2D6D72174C8460067A6B9 /* BuriburiJunKtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuriburiJunKtion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA2D6DA2174C8460067A6B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDA2D6DC2174C8460067A6B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDA2D6DF2174C8460067A6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDA2D6E12174C8480067A6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA2D6E42174C8480067A6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDA2D6E62174C8480067A6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA2D6F82177261B0067A6B9 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		CDF00086217DE90700BD6DAD /* EditViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,37 +39,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        CDA2D6CE2174C8460067A6B9 = {
-            isa = PBXGroup;
-            children = (
-                8510731621772A290081B3B5 /* ViewControlle.swift */,
-                CDA2D6D92174C8460067A6B9 /* BuriburiJunKtion */,
-                CDA2D6D82174C8460067A6B9 /* Products */,
-            );
-            sourceTree = "<group>";
-        };
-        CDA2D6D82174C8460067A6B9 /* Products */ = {
-            isa = PBXGroup;
-            children = (
-                CDA2D6D72174C8460067A6B9 /* BuriburiJunKtion.app */,
-            );
-            name = Products;
-            sourceTree = "<group>";
-        };
-        CDA2D6D92174C8460067A6B9 /* BuriburiJunKtion */ = {
-            isa = PBXGroup;
-            children = (
-                CDA2D6DA2174C8460067A6B9 /* AppDelegate.swift */,
-                CDA2D6DC2174C8460067A6B9 /* ViewController.swift */,
-                CDA2D6DE2174C8460067A6B9 /* Main.storyboard */,
-                CDA2D6F82177261B0067A6B9 /* EditViewController.swift */,
-                CDA2D6E12174C8480067A6B9 /* Assets.xcassets */,
-                CDA2D6E32174C8480067A6B9 /* LaunchScreen.storyboard */,
-                CDA2D6E62174C8480067A6B9 /* Info.plist */,
-            );
-            path = BuriburiJunKtion;
-            sourceTree = "<group>";
-        };
+		CDA2D6CE2174C8460067A6B9 = {
+			isa = PBXGroup;
+			children = (
+				CDA2D6D92174C8460067A6B9 /* BuriburiJunKtion */,
+				CDA2D6D82174C8460067A6B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA2D6D82174C8460067A6B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA2D6D72174C8460067A6B9 /* BuriburiJunKtion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA2D6D92174C8460067A6B9 /* BuriburiJunKtion */ = {
+			isa = PBXGroup;
+			children = (
+				CDA2D6DA2174C8460067A6B9 /* AppDelegate.swift */,
+				CDA2D6DC2174C8460067A6B9 /* ViewController.swift */,
+				CDF00086217DE90700BD6DAD /* EditViewController2.swift */,
+				CDA2D6DE2174C8460067A6B9 /* Main.storyboard */,
+				CDA2D6F82177261B0067A6B9 /* EditViewController.swift */,
+				CDA2D6E12174C8480067A6B9 /* Assets.xcassets */,
+				CDA2D6E32174C8480067A6B9 /* LaunchScreen.storyboard */,
+				CDA2D6E62174C8480067A6B9 /* Info.plist */,
+			);
+			path = BuriburiJunKtion;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,10 +143,11 @@
             files = (
                 CDA2D6DD2174C8460067A6B9 /* ViewController.swift in Sources */,
                 CDA2D6DB2174C8460067A6B9 /* AppDelegate.swift in Sources */,
-				CDA2D6F92177261B0067A6B9 /* EditViewController.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+                CDA2D6F92177261B0067A6B9 /* EditViewController.swift in Sources */,
+				CDF00087217DE90700BD6DAD /* EditViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
