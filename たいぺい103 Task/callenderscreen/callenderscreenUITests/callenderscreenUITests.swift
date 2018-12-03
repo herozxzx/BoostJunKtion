@@ -1,14 +1,14 @@
 //
-//  CalenderScreenUITests.swift
-//  CalenderScreenUITests
+//  callenderscreenUITests.swift
+//  callenderscreenUITests
 //
-//  Created by Hiromu Komazawa on 2018/10/28.
+//  Created by Hiromu Komazawa on 2018/12/03.
 //  Copyright © 2018年 boostjunktion. All rights reserved.
 //
 
 import XCTest
 
-class CalenderScreenUITests: XCTestCase {
+class callenderscreenUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
